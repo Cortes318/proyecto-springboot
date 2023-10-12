@@ -1,0 +1,19 @@
+CREATE DATABASE Autos;
+
+CREATE TABLE Auto (
+    id INT AUTO_INCREMENT,
+    placa VARCHAR(20) NOT NULL,
+    marca VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE estacionamiento (
+    id INT AUTO_INCREMENT,
+    auto VARCHAR(255),
+    espacios_disponibles INT
+);
+
+CREATE TABLE camiones (
+    id INT AUTO_INCREMENT,
+    marca VARCHAR(255),
+    placas VARCHAR(20)
+); 
